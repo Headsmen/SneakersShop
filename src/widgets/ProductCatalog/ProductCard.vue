@@ -36,7 +36,7 @@ const handleCartClick = () => {
         class="product-card__favorite"
       >
         <img
-          class="product-card__favorite-icon"
+          class="product-card__favorite-icon1"
           :src="isFavorite ? likeActiveImg : likeDisActiveImg"
           alt="Favorite"
         />
@@ -106,7 +106,7 @@ const handleCartClick = () => {
   align-self: flex-start;
 }
 
-.product-card__favorite-icon {
+.product-card__favorite-icon1 {
   width: 24px;
   height: 24px;
 }
@@ -166,7 +166,7 @@ const handleCartClick = () => {
     max-width: 160px;
   }
 
-  .product-card__favorite-icon {
+  .product-card__favorite-icon1 {
     position: relative;
     top: 20px;
   }
